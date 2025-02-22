@@ -35,7 +35,6 @@ pub unsafe extern "C" fn acquire_help(c_stmt: *const c_char) -> *mut c_char {
         "selection" => include_str!("help/selection.md"),
         "settings" => include_str!("help/settings.md"),
         "system" => include_str!("help/system.md"),
-        "quick-start" => include_str!("help/quick-start.md"),
         _ => "",
     };
 
